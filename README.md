@@ -1,5 +1,5 @@
-# Toronto Rental Analysis
-![](https://github.com/sarahm44/rental-analysis/blob/main/Images/toronto.jpg)
+# Rental Market Price Analysis
+![](https://github.com/YashNawani/Rental-Market-Price-Analysis/blob/main/Images/toronto.jpg)
 
 ## Table of Contents
 - [Overview](#overview)
@@ -10,27 +10,27 @@
 
 ## Overview
 
-I created an interactive dashboard using Toronto real estate data, including [Toronto Census Data](https://github.com/sarahm44/rental-analysis/blob/main/toronto_neighbourhoods_census_data.csv) and [Toronto Neighbourhood Coordinates](https://github.com/sarahm44/rental-analysis/blob/main/toronto_neighbourhoods_coordinates.csv), with the help of the [Mapbox API](https://www.mapbox.com/).
+I created an interactive dashboard using Toronto real estate data, including [Toronto Census Data](https://github.com/YashNawani/Rental-Market-Price-Analysis/blob/main/toronto_neighbourhoods_census_data.csv) and [Toronto Neighbourhood Coordinates](https://github.com/YashNawani/Rental-Market-Price-Analysis/blob/main/toronto_neighbourhoods_coordinates.csv), with the help of the [Mapbox API](https://www.mapbox.com/).
 
 This dashboard's goal is to provide charts, maps, and interactive visualizations that help customers explore the data and determine if they want to invest in rental properties in Toronto.
 
 ## Rental Analysis
 
-The code for the rental analysis is contained in [rental_analysis.ipynb](https://github.com/sarahm44/rental-analysis/blob/main/rental_analysis.ipynb).
+The code for the rental analysis is contained in [rental_analysis.ipynb](https://github.com/YashNawani/Rental-Market-Price-Analysis/blob/main/rental_analysis.ipynb).
 
 ### Dwelling Types Per Year
 This section calculates the number of dwelling types per year and visualizes the results as a bar chart using the Pandas plot function.
 
-![](https://github.com/sarahm44/rental-analysis/blob/main/Images/dwelling_types01.png)
-![](https://github.com/sarahm44/rental-analysis/blob/main/Images/dwelling_types02.png)
-![](https://github.com/sarahm44/rental-analysis/blob/main/Images/dwelling_types03.png)
-![](https://github.com/sarahm44/rental-analysis/blob/main/Images/dwelling_types04.png)
+![](https://github.com/YashNawani/Rental-Market-Price-Analysis/blob/main/Images/dwelling_types01.png)
+![](https://github.com/YashNawani/Rental-Market-Price-Analysis/blob/main/Images/dwelling_types02.png)
+![](https://github.com/YashNawani/Rental-Market-Price-Analysis/blob/main/Images/dwelling_types03.png)
+![](https://github.com/YashNawani/Rental-Market-Price-Analysis/blob/main/Images/dwelling_types04.png)
 
 ### Average Monthly Shelter Costs in Toronto Per Year
 
 This section visualizes the average monthly shelter costs per year to better understand the rental income trends over time. See below the average (mean) shelter cost for owned and rented dwellings per year:
 
-![](https://github.com/sarahm44/rental-analysis/blob/main/Images/shelter_costs.png)
+![](https://github.com/YashNawani/Rental-Market-Price-Analysis/blob/main/Images/shelter_costs.png)
 
 ### Average House Value per Year
 
@@ -38,13 +38,13 @@ This section determines the average house value per year. An investor may want t
 
 See below the average house value in Toronto per year:
 
-![](https://github.com/sarahm44/rental-analysis/blob/main/Images/house_value.png)
+![](https://github.com/YashNawani/Rental-Market-Price-Analysis/blob/main/Images/house_value.png)
 
 ### Average House Value by Neighbourhood
 
 This section compares the house value by neighbourhood. By using `hvplot`, the graph includes an interactive dropdown selector for the neighbourhood. See in the image below:
 
-![](https://github.com/sarahm44/rental-analysis/blob/main/Images/value_by_neighbourhood.png)
+![](https://github.com/YashNawani/Rental-Market-Price-Analysis/blob/main/Images/value_by_neighbourhood.png)
 
 ### Number of Dwelling Types per Year
 
@@ -52,7 +52,7 @@ This section visualizes the number of dwelling types per year in each neighbourh
 
 By using `hvplot`, the graph includes an interactive visualization of the average number of dwelling types per year with a dropdown selector for the neighbourhood. See in the image below
 
-![](https://github.com/sarahm44/rental-analysis/blob/main/Images/dt_per_year.png)
+![](https://github.com/YashNawani/Rental-Market-Price-Analysis/blob/main/Images/dt_per_year.png)
 
 ### Top 10 Most Expensive Neighbourhoods
 
@@ -60,7 +60,7 @@ In order to ascertain which neighbourhoods are the most expensive, I calculated 
 
 The results are plotted as a bar chart:
 
-![](https://github.com/sarahm44/rental-analysis/blob/main/Images/10_most_expensive.png)
+![](https://github.com/YashNawani/Rental-Market-Price-Analysis/blob/main/Images/10_most_expensive.png)
 
 ### Neighbourhood Map
 
@@ -68,25 +68,25 @@ In this final section I read in neighbourhood location data and built an interac
 
 See the visualisation below:
 
-![](https://github.com/sarahm44/rental-analysis/blob/main/Images/map.png)
+![](https://github.com/YashNawani/Rental-Market-Price-Analysis/blob/main/Images/map.png)
 
 ### Cost Analysis
 
 See below a bar chart row facet created to plot the average house values for all Toronto neighbourhoods per year:
 
-![](https://github.com/sarahm44/rental-analysis/blob/main/Images/value_neighbourhood.png)
+![](https://github.com/YashNawani/Rental-Market-Price-Analysis/main/Images/value_neighbourhood.png)
 
 See below a sunburst chart to conduct a cost analysis of the most expensive neighbourhoods in Toronto per year:
 
-![](https://github.com/sarahm44/rental-analysis/blob/main/Images/sunburst.png)
+![](https://github.com/YashNawani/Rental-Market-Price-Analysis/blob/main/Images/sunburst.png)
 
 ## Dashboard
 
-The [dashboard.ipynb](https://github.com/sarahm44/rental-analysis/blob/main/dashboard.ipynb) notebook contains the dashboard code. 
+The [dashboard.ipynb](https://github.com/YashNawani/Rental-Market-Price-Analysis/blob/main/dashboard.ipynb) notebook contains the dashboard code. 
 
 See the dashboard below:
 
-![](https://github.com/sarahm44/rental-analysis/blob/main/Images/dashboard.png)
+![](https://github.com/YashNawani/Rental-Market-Price-Analysis/blob/main/Images/dashboard.png)
 
 ## Environment
 
@@ -214,7 +214,7 @@ Follow the next steps to install PyViz and all its dependencies in your Python v
 
 ## How to Run the Dashboard
 
-![](https://github.com/sarahm44/rental-analysis/blob/main/Images/dashboard.png)
+![](https://github.com/YashNawani/Rental-Market-Price-Analysis/blob/main/Images/dashboard.png)
 
 ### Running the Dashboard
 In order to run the Dashboard, run the code in **dashboard.ipynb** file.
