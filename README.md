@@ -1,5 +1,5 @@
 # Rental Market Price Analysis
-![](https://github.com/YashNawani/Rental-Market-Price-Analysis/blob/main/Images/toronto.jpg)
+
 
 ## Table of Contents
 - [Overview](#overview)
